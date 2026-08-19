@@ -3,7 +3,7 @@
 # Configuration
 #########################################
 plugin="SimplySports"
-git_url="https://gitlab.com/hmeng80/extensions/-/raw/main/SimplySports/"
+git_url="https://raw.githubusercontent.com/tarekzoka/extensions/-/raw/main/SimplySports/"
 version=$(wget $git_url/version -qO- | awk 'NR==1')
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/SimplySports"
 package="enigma2-plugin-extensions-$plugin"
