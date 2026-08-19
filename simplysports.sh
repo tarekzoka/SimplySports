@@ -3,7 +3,7 @@
 # Configuration
 #########################################
 plugin="SimplySports"
-git_url="https://raw.githubusercontent.com/tarekzoka/extensions/-/raw/main/SimplySports/"
+git_url="https://raw.githubusercontent.com/tarekzoka/raw/main/SimplySports/"
 version=$(wget $git_url/version -qO- | awk 'NR==1')
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/SimplySports"
 package="enigma2-plugin-extensions-$plugin"
@@ -37,7 +37,7 @@ $uninstall_command $package > /dev/null 2>&1
 fi
 echo "*******************************************"
 echo "*             Removed Finished            *"
-echo "*            Uploaded By Haitham          *"
+echo "*            Uploaded By hanfy          *"
 echo "*******************************************"
 sleep 3
 exit 1
